@@ -1,0 +1,8 @@
+sample_id,scenario,battery_voltage,battery_temperature,sensor_available,expected_status,expected_alerts
+S-001,normal,12.0,30.0,true,OK,OK
+S-002,low_voltage,10.5,30.0,true,WARNING,LOW_VOLTAGE
+S-003,high_temperature,12.0,65.0,true,WARNING,HIGH_TEMPERATURE
+S-004,missing_sensor,,30.0,false,INVALID_DATA,INVALID_DATA
+S-005,voltage_boundary,11.0,30.0,true,OK,OK
+S-006,temp_boundary,12.0,60.0,true,OK,OK
+S-007,multiple_alerts,10.5,65.0,true,WARNING,LOW_VOLTAGE|HIGH_TEMPERATURE
