@@ -2,6 +2,13 @@
 
 **A small code change can break a diagnostic rule. Automated tests should catch it.**
 
+### 🚀 Live Demo
+
+**[Try the Interactive Dashboard](https://vehicle-diagnostics-validation-lab.streamlit.app)**
+
+Explore simulated vehicle diagnostics, trigger warning scenarios,
+and review recorded automated test results — no installation required.
+
 [![Python validation and regression tests](https://github.com/elfynme22/vehicle-diagnostics-validation-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/elfynme22/vehicle-diagnostics-validation-lab/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Testing](https://img.shields.io/badge/Testing-pytest-4169E1)
